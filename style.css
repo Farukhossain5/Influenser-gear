@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+/* utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.top-section{
+   margin: 0 auto;
+}
+.top-image img{
+   width: 440px;
+   height: 414px;
+   margin-left: 132px;
+
+}
+.top-image{
+   background-image: url(images/Circle\ design.svg);
+   background-repeat: no-repeat;
+   background-size:auto;
+}
+.top-pra{
+   width: 582px;
+   height: 270px;
+}
+.top-pra a{
+   display: inline-block;
+   text-decoration: none;
+   border: 1px solid lightgray;
+   background-color: rgb(222, 113, 132);
+   color: whitesmoke;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius:15px ;
+
+}
+.top-section{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: center;
+}
